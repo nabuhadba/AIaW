@@ -123,6 +123,9 @@
     "yarn": ">= 1.21.1"
   },
   "pnpm": {
+    "overrides": {
+      "tmp": "^0.2.7"
+    },
     "onlyBuiltDependencies": [
       "sharp"
     ]
