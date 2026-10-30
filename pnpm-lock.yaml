@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@intlify/shared@<9.14.2': 9.14.2
+  '@intlify/shared@<9.14.4': 9.14.4
 
 importers:
 
@@ -2021,8 +2021,8 @@ packages:
     resolution: {integrity: sha512-dF2iMMy8P9uKVHV/20LA1ulFLL+MKSbfMiixSmn6fpwqzvix38OIc7ebgnFbBqElvghZCW9ACtzKTGKsTGTWGA==}
     engines: {node: '>= 16'}
 
-  '@intlify/shared@9.14.2':
-    resolution: {integrity: sha512-uRAHAxYPeF+G5DBIboKpPgC/Waecd4Jz8ihtkpJQD5ycb5PwXp0k/+hBGl5dAjwF7w+l74kz/PKA8r8OK//RUw==}
+  '@intlify/shared@9.14.4':
+    resolution: {integrity: sha512-P9zv6i1WvMc9qDBWvIgKkymjY2ptIiQ065PjDv7z7fDqH3J/HBRBN5IoiR46r/ujRcU7hCuSIZWvCAFCyuOYZA==}
     engines: {node: '>= 16'}
 
   '@intlify/unplugin-vue-i18n@2.0.0':
@@ -8932,7 +8932,7 @@ snapshots:
   '@intlify/bundle-utils@7.5.1(vue-i18n@11.1.2(vue@3.5.12(typescript@5.5.4)))':
     dependencies:
       '@intlify/message-compiler': 9.14.0
-      '@intlify/shared': 9.14.2
+      '@intlify/shared': 9.14.4
       acorn: 8.12.1
       escodegen: 2.1.0
       estree-walker: 2.0.2
@@ -8956,17 +8956,17 @@ snapshots:
 
   '@intlify/message-compiler@9.14.0':
     dependencies:
-      '@intlify/shared': 9.14.2
+      '@intlify/shared': 9.14.4
       source-map-js: 1.2.0
 
   '@intlify/shared@11.1.2': {}
 
-  '@intlify/shared@9.14.2': {}
+  '@intlify/shared@9.14.4': {}
 
   '@intlify/unplugin-vue-i18n@2.0.0(rollup@2.80.0)(vue-i18n@11.1.2(vue@3.5.12(typescript@5.5.4)))':
     dependencies:
       '@intlify/bundle-utils': 7.5.1(vue-i18n@11.1.2(vue@3.5.12(typescript@5.5.4)))
-      '@intlify/shared': 9.14.2
+      '@intlify/shared': 9.14.4
       '@rollup/pluginutils': 5.1.0(rollup@2.80.0)
       '@vue/compiler-sfc': 3.4.38
       debug: 4.3.6
