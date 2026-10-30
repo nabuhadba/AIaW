@@ -123,6 +123,9 @@
     "yarn": ">= 1.21.1"
   },
   "pnpm": {
+    "overrides": {
+      "esbuild": "~0.25.12"
+    },
     "onlyBuiltDependencies": [
       "sharp"
     ]
