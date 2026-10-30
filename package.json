@@ -123,6 +123,9 @@
     "yarn": ">= 1.21.1"
   },
   "pnpm": {
+    "overrides": {
+      "vitepress>vite": "^6.4.5"
+    },
     "onlyBuiltDependencies": [
       "sharp"
     ]
