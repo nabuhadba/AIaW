@@ -25,14 +25,14 @@ GlobalWorkerOptions.workerSrc = 'https://unpkg.com/pdfjs-dist@5.2.133/build/pdf.
 
 export function extractText(
   data: DocumentInitParameters['data'] | PDFDocumentProxy,
-  options?: { mergePages?: false },
+  options?: { mergePages?: false }
 ): Promise<{
   totalPages: number
   text: string[]
 }>
 export function extractText(
   data: DocumentInitParameters['data'] | PDFDocumentProxy,
-  options: { mergePages: true },
+  options: { mergePages: true }
 ): Promise<{
   totalPages: number
   text: string

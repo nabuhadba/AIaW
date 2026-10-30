@@ -1039,7 +1039,7 @@ async function stream(target, insert = false) {
         id: p.id,
         prompt: p.prompt && engine.parseAndRenderSync(p.prompt, { ...pluginVars, infos: pluginInfos })
       })
-    } catch (e) {
+    } catch {
       $q.notify({ message: t('dialogView.pluginPromptParseFailed', { title: p.title }), color: 'negative' })
     }
   }))

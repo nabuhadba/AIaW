@@ -1,17 +1,17 @@
 import { liveQuery, type Subscription } from 'dexie'
 import { shallowRef, getCurrentScope, onScopeDispose, watch, type ShallowRef, type WatchOptions } from 'vue'
 
-type Value<T, I> = I extends undefined ? T | undefined : T | I;
+type Value<T, I> = I extends undefined ? T | undefined : T | I
 
 type UseDexieLiveQueryWithDepsOptions<I, Immediate> = {
   onError?: (error) => void;
   initialValue?: I;
-} & WatchOptions<Immediate>;
+} & WatchOptions<Immediate>
 
 type UseDexieLiveQueryOptions<I> = {
   onError?: (error) => void;
   initialValue?: I;
-};
+}
 
 function tryOnScopeDispose(fn: () => void) {
   if (getCurrentScope()) { onScopeDispose(fn) }
@@ -20,7 +20,7 @@ function tryOnScopeDispose(fn: () => void) {
 export function useLiveQueryWithDeps<
   T,
   I = undefined,
-  Immediate extends Readonly<boolean> = true,
+  Immediate extends Readonly<boolean> = true
 >(
   deps,
   querier: (...data) => T | Promise<T>,
@@ -65,7 +65,7 @@ export function useLiveQueryWithDeps<
 
 export function useLiveQuery<
   T,
-  I = undefined,
+  I = undefined
 >(
   querier: () => T | Promise<T>,
   options: UseDexieLiveQueryOptions<I> = {}

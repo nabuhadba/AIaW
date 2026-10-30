@@ -223,7 +223,7 @@ async function clipboardImport() {
   try {
     const text = await clipboardReadText()
     addToGlobal(JSON.parse(text))
-  } catch (err) {
+  } catch {
     $q.notify({
       message: t('assistantsMarket.importError'),
       color: 'negative'

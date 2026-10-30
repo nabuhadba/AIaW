@@ -57,7 +57,7 @@ export type TauriShellServerParameters = {
    * 进程的工作目录。
    */
   cwd?: string;
-};
+}
 
 /**
  * 基于 @tauri-apps/plugin-shell 的 transport 实现 —— 用于在浏览器（前端）环境下调用后端进程。

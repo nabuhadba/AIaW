@@ -16,7 +16,7 @@ export class SseError extends Error {
 
 type RequestInit = globalThis.RequestInit
 type HeadersInit = globalThis.HeadersInit
-type FetchLike = (url: string | URL, init?: RequestInit) => Promise<Response>;
+type FetchLike = (url: string | URL, init?: RequestInit) => Promise<Response>
 
 /**
  * Configuration options for the `SSEClientTransport`.
@@ -57,7 +57,7 @@ export type SSEClientTransportOptions = {
    * Customizes the fetch implementation.
    */
   fetch?: FetchLike;
-};
+}
 
 /**
  * Client transport for SSE: this will connect to a server using Server-Sent Events for receiving
