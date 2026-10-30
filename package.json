@@ -125,6 +125,9 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "sharp"
-    ]
+    ],
+    "overrides": {
+      "follow-redirects": "^1.16.2"
+    }
   }
 }
