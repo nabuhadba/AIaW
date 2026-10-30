@@ -123,6 +123,9 @@
     "yarn": ">= 1.21.1"
   },
   "pnpm": {
+    "overrides": {
+      "js-yaml@^4.1.0": "^4.3.2"
+    },
     "onlyBuiltDependencies": [
       "sharp"
     ]
