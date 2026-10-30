@@ -67,7 +67,7 @@
     "dexie-export-import": "^4.4.0",
     "eventsource": "^3.0.6",
     "expr-eval": "^2.0.2",
-    "fflate": "^0.8.2",
+    "fflate": "^0.8.3",
     "html-to-image": "^1.11.13",
     "json-schema": "^0.4.0",
     "liquidjs": "^10.25.5",
