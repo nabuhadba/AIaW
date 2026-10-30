@@ -123,6 +123,9 @@
     "yarn": ">= 1.21.1"
   },
   "pnpm": {
+    "overrides": {
+      "flat-cache>rimraf": "^4.3.1"
+    },
     "onlyBuiltDependencies": [
       "sharp"
     ]
