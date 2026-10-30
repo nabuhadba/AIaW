@@ -1,0 +1,2 @@
+overrides:
+  '@intlify/shared@<9.14.2': 9.14.2
