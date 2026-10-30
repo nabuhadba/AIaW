@@ -123,6 +123,9 @@
     "yarn": ">= 1.21.1"
   },
   "pnpm": {
+    "overrides": {
+      "path-to-regexp@0.1.12": "0.1.13"
+    },
     "onlyBuiltDependencies": [
       "sharp"
     ]
