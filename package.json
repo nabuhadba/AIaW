@@ -123,6 +123,9 @@
     "yarn": ">= 1.21.1"
   },
   "pnpm": {
+    "overrides": {
+      "qs@<6.16.2": "~6.16.2"
+    },
     "onlyBuiltDependencies": [
       "sharp"
     ]
