@@ -58,7 +58,7 @@ export const useUserPerfsStore = defineStore('user-perfs', () => {
     provider: null,
     model: models.find(m => m.name === 'gpt-5.4'),
     systemProvider: null,
-    systemModel: models.find(m => m.name === 'gpt-5.4-nano'),
+    systemModel: models.find(m => m.name === 'gpt-6-luna'),
     userAvatar: {
       type: 'text',
       text: 'U',
