@@ -10,7 +10,7 @@ import { fetch } from 'src/utils/platform-api'
 import { useProvidersStore } from 'src/stores/providers'
 import { LanguageModelV2 } from '@openrouter/ai-sdk-provider'
 
-const FormattingModels = ['o1', 'o3-mini', 'o3-mini-2025-01-31']
+const FormattingModels = ['o1']
 
 function wrapMiddlewares(model: LanguageModelV2) {
   const middlewares = [extractReasoningMiddleware({ tagName: 'think' })]
